@@ -1,0 +1,38 @@
+/* CSS */
+
+body {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74c51a189ca1ab912a127122cf6ba45f&auto=format&fit=crop&w=1500&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: auto;
+}
+
+.clock {
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  padding: 1rem;
+
+
+
+}
+
+.clock-face {
+  position: relative;
+  height: 100%;
+  width:100%;
+
+}
+
+.hand
+{
+
+  position: absolute;
+  width: 50%;
+  height:5px;
+  background-color: #FFFFFF;
+  top:50%;
